@@ -1,0 +1,64 @@
+
+<html>
+
+<head>
+    <style>
+        /*----------------------------------
+        SIDEBAR
+        ----------------------------------*/
+ input[type=radio],
+ input[type=checkbox] {
+   display: none;
+ }
+ form input[type="radio"]:checked + label {
+   background-color: yellow;
+ }
+ label {
+   display: block;
+   appearance: button;
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   -ms-appearance: button;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   background: #DDDDDD;
+   font-size: 1.6rem;
+   color: #111111;
+   border: 2px solid #AAAAAA;
+   padding: 8px;
+   width: 40%;
+   margin: 0 auto;
+   text-align: center;
+}
+    </style>
+</head>
+<body>
+    <form>
+     
+
+        <input type="radio" name="ans" value="MasterCard" class="button" id="M" ></input>
+<label for="M"> MasterCard</label>
+
+<input type="radio" name="ans" value="Visa" class="button" id="Visa"></input><br>
+<label for="Visa"> Visa</label>
+
+<input type="radio" name="ans" value="American Express" class="button" id="O"></input><br>
+<label for="O"> American Express</label>
+
+<input type="radio" name="ans" value="Gpay" class="button" id="P"></input><br>
+<label for="P"> MasterCard</label>
+
+
+
+<input type="radio" class="button" id="Male" name="gender"></input>
+<label for="Male">Male</label><br>
+<input type="radio" class="button" id="Female" name="gender"></input>
+<label for="Female">Female</label><br>
+<input type="radio" class="button" id="M" name="gender"></input>
+<label for="M">Male</label><br>
+<input type="radio" class="button" id="F" name="gender"></input>
+<label for="F">Female</label>
+
+      </form>
+</body>
+</html>

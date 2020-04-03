@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Quiz Rules</title>
+    <meta name="description" content="A brief page description">
+    <link rel="stylesheet" href="style_rules.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script src="images/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+              sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+              menu: '#menu',
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+
+<ul id="menu">
+    <li data-menuanchor="Rule 1" class="active"><a href="#firstPage">Rule 1</a></li>
+    <li data-menuanchor="Rule 2"><a href="#secondPage">Rule 2</a></li>
+    <li data-menuanchor="Rule 3"><a href="#3rdPage">Rule 3</a></li>
+    <li data-menuanchor="Back to Game"><a href='index_v.html' > Back to Game</a></li>
+    <li data-menuanchor="Back to Leaderboard"><a href='index.php' > Back to LeaderBoard</a></li>
+</ul>
+
+<div id="fullpage">
+    <div class="section " id="section0">
+        <h1 font-family='Brush Script MT'>Rules number One</h1>
+        <p>RULE 1 : You will have to register for the Game before you start!!!!</p>
+        <p class="introimg">&darr;&#9636;&darr;</p>
+    </div>
+    <div class="section active" id="section1">
+        <div class="slide" id="slide1">
+            <div class="intro">
+                <h1>Rule number Two</h1>
+                <p>RULE 2: You will have 10 questions </p>
+            </div>
+        </div>
+        <div class="slide active" id="slide2">
+            <h1>Rule number Three</h1>
+			<p>RULE 3 :Each question will have a Time Limit of 10 Seconds</p>
+        </div>
+        <div class="slide" id="slide3">
+            <h1>RULE 4: You should choose one of the available options</h1>
+        </div>
+
+    </div>
+    <div class="section" id="section2">
+        <div class="intro">
+            <h1>All the best</h1>
+            <p>It's Quiz time</p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
